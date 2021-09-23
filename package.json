@@ -2,7 +2,7 @@
   "name": "toolkit-json",
   "version": "1.0.2",
   "description": "json toolkit",
-  "main": "./src/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "release": "standard-version && git push --follow-tags origin main",
     "build": "cross-env NODE_ENV=production babel ./src --out-dir dist --copy-files",
