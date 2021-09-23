@@ -1,1 +1,13 @@
-!function(o,t){"object"==typeof exports&&"object"==typeof module?module.exports=t():"function"==typeof define&&define.amd?define("toolkit-json",[],t):"object"==typeof exports?exports["toolkit-json"]=t():o["toolkit-json"]=t()}(this,(function(){return(()=>{"use strict";var o={d:(t,e)=>{for(var n in e)o.o(e,n)&&!o.o(t,n)&&Object.defineProperty(t,n,{enumerable:!0,get:e[n]})},o:(o,t)=>Object.prototype.hasOwnProperty.call(o,t),r:o=>{"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(o,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(o,"__esModule",{value:!0})}},t={};function e(o){return e="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(o){return typeof o}:function(o){return o&&"function"==typeof Symbol&&o.constructor===Symbol&&o!==Symbol.prototype?"symbol":typeof o},e(o)}o.r(t),o.d(t,{JsonCircularStringify:()=>r});var n=function o(t){var n=arguments.length>1&&void 0!==arguments[1]?arguments[1]:null;if(n||(n=new WeakSet),!n.has(t)&&"object"===e(t))for(var r in n.add(t),t)o(t[r],n)},r=function(){for(var o=arguments.length,t=new Array(o),e=0;e<o;e++)t[e]=arguments[e];return JSON.stringify(t,n(t))};return t})()}));
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+Object.defineProperty(exports, "JsonCircularStringify", {
+  enumerable: true,
+  get: function get() {
+    return _JsonCircularStringify.JsonCircularStringify;
+  }
+});
+
+var _JsonCircularStringify = require("./tools/JsonCircularStringify");
