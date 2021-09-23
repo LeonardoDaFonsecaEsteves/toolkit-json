@@ -1,6 +1,6 @@
 {
   "name": "toolkit-json",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "json toolkit",
   "main": "dist/index.js",
   "scripts": {
