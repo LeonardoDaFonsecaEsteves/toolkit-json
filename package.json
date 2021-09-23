@@ -1,0 +1,56 @@
+{
+  "name": "toolkit-json",
+  "version": "1.0.0",
+  "description": "json toolkit",
+  "main": "./src/index.js",
+  "scripts": {
+    "release": "standard-version && git push --follow-tags origin main",
+    "build": "npm ci && webpack --progress --config webpack.config.js",
+    "test": "jest --coverage --coverageReporters='text-summary'",
+    "test:coverage": "jest --coverage",
+    "commit": "cz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeonardoDaFonsecaEsteves/toolkit-json.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/plugin-proposal-class-properties": "7.8.3",
+    "@babel/plugin-proposal-numeric-separator": "7.8.3",
+    "@babel/plugin-transform-runtime": "7.7.6",
+    "@babel/preset-env": "^7.15.6",
+    "babel-jest": "^27.2.0",
+    "babel-loader": "^8.2.2",
+    "cz-conventional-changelog": "^3.3.0",
+    "file-loader": "5.1.0",
+    "jest": "^27.2.0",
+    "standard-version": "^9.3.1",
+    "terser-webpack-plugin": "^5.2.4",
+    "webpack": "^5.53.0",
+    "webpack-bundle-analyzer": "4.4.0",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.2.1",
+    "webpack-merge": "4.2.2"
+  },
+  "keywords": [
+    "JSON",
+    "json",
+    "stringify",
+    "tools",
+    "toolkit",
+    "json-toolkit",
+    "json-tools",
+    "tools-json",
+    "tools"
+  ],
+  "author": "Leonardo Da Fonseca",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeonardoDaFonsecaEsteves/toolkit-json/issues"
+  },
+  "homepage": "https://github.com/LeonardoDaFonsecaEsteves/toolkit-json#readme"
+}
