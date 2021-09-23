@@ -1,7 +1,7 @@
 # toolkit-json
 
 toolkit for json
-![Coverage Badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/LeonardoDaFonsecaEsteves/8a6c3dd8d57f8bcab1d4126ee2caf9d0/raw/toolkit-json__heads_main.json) [![codecov](https://codecov.io/gh/LeonardoDaFonsecaEsteves/toolkit-json/branch/main/graph/badge.svg?token=5QTMF25PCI)](https://codecov.io/gh/LeonardoDaFonsecaEsteves/toolkit-json) [![CodeQL](https://github.com/LeonardoDaFonsecaEsteves/toolkit-json/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/LeonardoDaFonsecaEsteves/toolkit-json/actions/workflows/codeql-analysis.yml)
+![Coverage Badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/LeonardoDaFonsecaEsteves/6efb09a5572ada0bac3126f346d76e32/raw/toolkit-json__heads_main.json) [![codecov](https://codecov.io/gh/LeonardoDaFonsecaEsteves/toolkit-json/branch/main/graph/badge.svg?token=5QTMF25PCI)](https://codecov.io/gh/LeonardoDaFonsecaEsteves/toolkit-json) [![CodeQL](https://github.com/LeonardoDaFonsecaEsteves/toolkit-json/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/LeonardoDaFonsecaEsteves/toolkit-json/actions/workflows/codeql-analysis.yml)
 ---
 
 ## JsonCircularStringify
