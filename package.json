@@ -5,7 +5,7 @@
   "main": "./src/index.js",
   "scripts": {
     "release": "standard-version && git push --follow-tags origin main",
-    "build": "npm ci && webpack --progress --config webpack.config.js",
+    "build": "npm run clean && cross-env NODE_ENV=production babel ./src --out-dir dist --copy-files --no-copy-ignores",
     "test": "jest --coverage --coverageReporters='text-summary'",
     "test:coverage": "jest --coverage",
     "commit": "cz"
