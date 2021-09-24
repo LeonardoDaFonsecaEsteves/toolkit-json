@@ -10,7 +10,7 @@ function qui permet de stringify tout type d'objet ou de fichier json
 
 to use it, just import it and pass it as a parameter of the object or the file to stringify
 
-```
+```javascript
  const stringify = JsonCircularStringify(
      'string',
      {
